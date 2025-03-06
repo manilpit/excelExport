@@ -1,0 +1,16 @@
+Package: excelExport
+Title: Analyseverktøy for Regnskap fra Utdanningsinstitusjoner
+Version: 0.1.0
+Authors@R: 
+    person("Mathias", "Nilsen", email = "manilpit@gmail.com", role = c("aut", "cre"))
+Description: Verktøy for å trekke ut nøkkeltall fra regnskaper for høgskoler, 
+    fagskoler og studentsamskipnader. Pakken leser regnskapsdata fra Excel-filer 
+    og sammenstiller nøkkeltall i oversiktlige rapporter.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    readxl,
+    writexl,
+    dplyr
